@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class ConnectionManager {
 	static Connection con;
-	private static final String DB_DRIVER="com.mysql.jdbc.Driver";
-	private static final String DB_CONNECTION="jdbc:mysql://localhost/staff";
-	private static final String DB_USER="root";
-	private static final String DB_PASSWORD="";
+	private static final String DB_DRIVER="org.postgresql.Driver";
+	private static final String DB_CONNECTION="jdbc:postgresql://ec2-44-195-162-77.compute-1.amazonaws.com:5432/d941dgpst6c5bh";
+	private static final String DB_USER="usbwdjxnhxgvdj";
+	private static final String DB_PASSWORD="633b06777d2ff1b45a04cbdbce96f8fbad852af2e7c79a0b6027750e7e1d4552";
 	
 	public static Connection getConnection() {
 		try {
