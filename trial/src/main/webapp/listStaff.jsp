@@ -66,7 +66,7 @@
 			<ul>
 			  <li><a href="index.html">Home</a></li>
 			  <li><a href="addStaff.jsp">Add New Staff</a></li>
-			  <li><a class="active" href="#ListStaffController">List Staff</a></li>
+			  <li><a class="active" href="#ListStaffController">List of Staffs</a></li>
 			  <li><a href="ListPrayerController">List Prayer</a></li>
 			</ul>
 		</nav>
